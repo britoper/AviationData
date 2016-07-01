@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>KMYF</name>
+    <description>Montgomery Gibbs Executive</description>
+    <Point>
+      <coordinates>32.814699,-117.138591</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>KSEE</name>
+    <description>Gillespie Field</description>
+    <Point>
+      <coordinates>32.825644, -116.971314</coordinates>
+    </Point>
+  </Placemark>
+</kml>
