@@ -7,11 +7,4 @@
       <coordinates>32.814699,-117.138591</coordinates>
     </Point>
   </Placemark>
-  <Placemark>
-    <name>KSEE</name>
-    <description>Gillespie Field</description>
-    <Point>
-      <coordinates>32.825644, -116.971314</coordinates>
-    </Point>
-  </Placemark>
 </kml>
