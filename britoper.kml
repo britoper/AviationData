@@ -4,7 +4,7 @@
     <name>KMYF</name>
     <description>Montgomery Gibbs Executive</description>
     <Point>
-      <coordinates>32.814699,-117.138591</coordinates>
+      <coordinates>-117.138591,32.814699</coordinates>
     </Point>
   </Placemark>
 </kml>
