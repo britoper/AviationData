@@ -26,11 +26,26 @@
 	  mapTypeId: google.maps.MapTypeId.TERRAIN,
 	  zoom: 8
 	});
-	var kmlLayer = new google.maps.KmlLayer({
-	  url: 'https://thesadnap.github.io/britoper.kml'
-	  suppressInfoWindows: true,
-	  map: map
-	});
+	setMarkers(map)
+      }
+      var Airports = [
+      ['KMYF',32.82,-117.14],
+      ['KSEE',32.83,-116.97],
+      ['KRNM',33.04,-116.92],
+      ['KCRQ',33.13,-117.28],
+      ['KSDM',32.57,-116.98],
+      ['KHMT',33.73,-117.02],
+      ['L18',33.35,-117.25]
+      ];
+      function setMarkers(map) {
+	      for var i=0; i<Airports.length; i++) {
+		      var airport = Airports[i]
+		      var marker = new google.maps.Marker({
+			      position: {lat: airport[1], lng: airport[2]},
+			      map: map,
+			      title: airport[0]
+		      });
+	      }
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8AONb-Km7AmoWGVMkP25CD0aMUhfBNu8&callback=initMap"
